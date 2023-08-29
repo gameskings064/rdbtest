@@ -1,4 +1,6 @@
-name: stay awake 
+name: stay awake
+
+on: [push, workflow_dispatch]
 
 env:
     package_name: stay-awake
@@ -60,4 +62,3 @@ jobs:
             - run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "P@ssw0rd!" -Force)
             - name: Create Tunnel
               run: .\ngrok\ngrok.exe tcp --region eu 3389
-
