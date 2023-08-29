@@ -1,7 +1,5 @@
 name: stay awake
 
-on: [push, workflow_dispatch]
-
 env:
     package_name: stay-awake
 
