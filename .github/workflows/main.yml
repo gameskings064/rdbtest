@@ -36,1262 +36,2561 @@ jobs:
     - run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "P@ssw0rd!" -Force)
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
     - name: Create Tunnel
       run: |
-        .\ngrok\ngrok.exe tcp --region eu 3389 &
-        timeout /t 1800
-        taskkill /f /im ngrok.exe
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
     - name: Sleep for one minute
       run: sleep 60
-
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
+    - name: Create Tunnel
+      run: |
+           .\ngrok\ngrok.exe tcp --region eu 3389 &
+           $pid = $LASTEXITCODE
+           Start-Sleep -Seconds 1800
+           Stop-Process -Id $pid
+    - name: Sleep for one minute
+      run: sleep 60
